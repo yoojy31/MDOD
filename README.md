@@ -36,7 +36,7 @@ Usage
 -----
 Training
 ```
-# run/run_mdod.sh
+# run/run_mdod_coco.sh
 --training_args="{'max_iter': maximum number of iterations, ...}"
 
 # command
@@ -44,7 +44,7 @@ Training
 ```
 Test
 ```
-# run_mmod.sh
+# run/run_mdod_coco.sh
 --training_args="{'init_iter': 0, 'max_iter': 0, ...}",
 --test_iters="[0]"
 --load_dir="path of the snapshot directory that has a network.pth file"
