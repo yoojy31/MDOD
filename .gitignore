@@ -1,0 +1,8 @@
+/data/*
+/result/*
+__pycache__/
+build/
+.temp/*
+.idea/
+.fuse*
+*.so
