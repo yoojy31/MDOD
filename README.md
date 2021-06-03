@@ -1,14 +1,13 @@
-Mixture-Model-based Object Detector: PyTorch Implementation
+Mixture Density Object Detector: PyTorch Implementation
 ===========================================================
 
 This repository is the PyTorch implementation of  
-"[Mixture-Model-based Bounding Box Density Estimation for Object Detection](https://arxiv.org/abs/1911.12721)"
+"[Density-based Object Detection: Learning Bounding Boxes without Ground Truth Assignment](https://arxiv.org/abs/1911.12721)"
 
 Environment
 -----------
-- python3.6
-- pytorch1.1
-- torchvision0.3
+- python3
+- pytorch1.7
 
 Directory Structure
 -------------------
@@ -57,10 +56,9 @@ Test
 Citation
 --------
 ```
-@article{yoo2019mmod,
-  title={Mixture-Model-based Bounding Box Density Estimation for Object Detection},
-  author={Yoo, Jaeyoung and Seo, Geonseok and Kwak, Nojun},
+@article{yoo2019density,
+  title={Density-based Object Detection: Learning Bounding Boxes without Ground Truth Assignment},
+  author={Yoo, Jaeyoung and Lee, Hojun and Chung, Inseop and Seo, Geonseok and Kwak, Nojun},
   journal={arXiv preprint arXiv:1911.12721},
   year={2019}
 }
-```
