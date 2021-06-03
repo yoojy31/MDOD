@@ -14,7 +14,7 @@ Directory Structure
 ```
 (root-directory)
 ├── README.md
-├── run_mmod.py
+├── run
 ├── src
 │   └── (python-source-file.py)
 ├── result
@@ -36,11 +36,11 @@ Usage
 -----
 Training
 ```
-# run_mmod.sh
+# run/run_mdod.sh
 --training_args="{'max_iter': maximum number of iterations, ...}"
 
 # command
-.../(root-directory)$ bash run_mmod.sh
+.../(root-directory)$ bash run/run_mdod_coco.sh
 ```
 Test
 ```
@@ -50,7 +50,7 @@ Test
 --load_dir="path of the snapshot directory that has a network.pth file"
 
 # command
-.../(root-directory)$ bash run_mmod.sh
+.../(root-directory)$ bash run/run_mdod_coco.sh
 ```
 
 Citation
